@@ -1,0 +1,96 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #000; /* Cambiar el fondo a negro */
+    text-align: left;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* Estilos del perfil */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.bio {
+    padding: 20px;
+    width: 60%;
+}
+
+.bio h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.bio p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.bio p:first-of-type {
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000; /* Cambiar el fondo del pie de página a negro */
+    text-align: left;
+    padding: 10px 20px;
+    color: #fff; /* Cambiar el color del texto a blanco para mejor contraste */
+    font-size: 1.1em; /* Aumentar tamaño de fuente */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
